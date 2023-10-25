@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2b2b;
+    font-family: Montserrat, sans-serif;
+}
+
+.navigation {
+    background-color: #2b2b2b;
+    color: white;
+    height: 56px;
+}
+
+.navigation ul {
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    height: 56px;
+    text-align: right;
+}
+
+.navigation li {
+ display: inline-block;
+ line-height: 56px;
+ padding-left: 30px;
+ padding-right: 30px;
+ font-weight: 100;
+ font-size: 18px;
+}
+
+.capa {
+    color: white;
+}
+
+.capa span {
+    color: #f27609;
+    display: block;
+}
+
+.capa div {
+    display: inline-block;
+    height: 650px;
+}
+
+.profile-pic {
+    width: 39%;
+    text-align: center;
+}
+
+.profile-pic img {
+    border-radius: 152px;
+    width: 320px;
+    margin-top: 100px;
+}
+
+.profile-title {
+    vertical-align: top;
+    width: 60%;
+}
+
+.profile-title h1 {
+    margin-top: 200px;
+    font-size: 58px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 54px;
+}
+
+.profile-title h2 {
+    margin-top: -26px;
+    font-weight: 100;
+    font-size: 16px;
+}
