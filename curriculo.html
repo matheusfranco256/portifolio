@@ -7,51 +7,59 @@
 
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 
 
-	<body class="body">
-			<div class="navigation">
-								
-				<ul class="navigation ul">
-					<li class="navigation li">Home</li>
-					<li  class="navigation li">Portifolio</li>
-					<li  class="navigation li">Currículo</li>
-					<li  class="navigation li">Contato</li>
+	<body>
+		<div id="navigation" class="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="curriculo.html">Curriculo</a><a></li>
+				<li><a href="contato.html">Contato</a><a></li>
+				<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+			</ul>
+		</div>	
+
+			<div class="main">
+					
+				<ul class="caminho">
+					<li><a href="index.html">Home</a></li>
+					<li>></li>
+					<li>Currículo</li>
 				</ul>
 
 				<h1>Currículo</h1>
-					<div class="profile-title2">
+
 					
-						<h2>Dados Pessoais</h2>
-						<div class="capa">
+					<h2>Dados Pessoais</h2>
 
-							<div class="profile-pic">
-								<img src="img/matheus-profile.jpg" alt="Matheus Franco" />
-							</div>
-					
-							<div>
-								<h3>Nome:</h3>
+						<img 
+							class="cv-pic"
+							src="img/danilo-profile.jpg"
+							alt="Matheus"
+						/>
+						
+						<h3>Nome:</h3>
 
-									<p>Matheus Franco</p>
+							<p>Matheus Franco</p>
 
-								<h3>Data de Nascimento:</h3>
+						<h3>Data de Nascimento:</h3>
 
-									<p>Sua data de nascimento</p>
+							<p>20/08/1998</p>
 
-								<h3>Residência:</h3>
+						<h3>Residência:</h3>
 
-									<p>Sua cidade, país</p>
+							<p>Itapetininga</p>
 
-							</div>
-						</div>
-				
-					</div>
-						<h3>Idiomas:</h3>
+						<h3 style="clear: left">Idiomas:</h3>
 
 							<p>Português (Nativo)</p>
-							<p>Idioma 2</p>
-							<p>Idioma 3</p>
+							<p>Inglês</p>
 							
 					
 					<h2>Sobre Mim</h2>
@@ -119,7 +127,8 @@
 							<p>seu e-mail aqui</p>
 							<p>seu telefone aqui</p>
 
-				<a href="#">Voltar ao início<a>
+
+				<a href="index.html">Voltar ao início<a>
 
 
 			</div>
